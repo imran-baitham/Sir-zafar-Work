@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <!-- style -->
+     <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+     <div class="Container TodoApp">
+          <p>the goal of this codepen is to exercise my skills on plain javascript, with no extra dependencies, and also creating dynamic elements in the DOM.</p>  
+        <div class="Section Filter">
+            <button class="Btn Btn--link js-filter-btn" data-filter="completed">show completed</button>
+            <button class="Btn Btn--link js-filter-btn" data-filter="active">show active</button>
+            <button class="Btn Btn--link js-filter-btn" data-filter="all">show all</button>
+        </div>
+          <div class="Section">
+            <form class="Form">
+              <input type="text" class="Form-input js-form-input" placeholder="add your todo here..."/>
+              <button class="Btn js-btn-add">add</button>
+            </form>
+          </div>  
+        <div class="Section">
+          <ul class="TodoApp-list js-todos-list">
+               
+          </ul>  
+          <div class="Alert js-alert"></div>
+        </div>
+      </div>
+      
+      
+      <div class="Credits">
+        Resources:
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">Document/createElement</a></li>
+        </ul>
+      </div>
+     <!-- javaScript -->
+     <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awsome Icon -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- style -->
+  <link rel="stylesheet" href="style.css">
+  <!-- title -->
+  <title>Task List</title>
+</head>
+
+<body>
+  <div class="contaier">
+    <div class="style">
+      <div class="first-div">
+        <form id="task-form">
+          <div class="input-field col s12">
+            <input type="text" name="task" id="task" placeholder="e.g Input Task">
+          </div>
+          <button type="submit" value="Add Task" class="btn">Add Task</button>
+        </form>
+      </div>
+      <!-- Add List Items -->
+      <div class="card-action">
+        <h5 id="task-title">Tasks</h5>
+        <ul class="collection"></ul>
+        <br>
+        <hr>
+        <br>
+        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+      </div>
+      <!-- End List Items -->
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700"); */
+
+body {
+	font-family: "Rubik", sans-serif;
+	font-size: 1.2rem;
+	color: #78909c;
+	background-color: #eceff1;
+}
+
+.Container {
+	max-width: 60rem;
+	margin: 2rem auto;
+}
+
+.Section {
+	width: 100%;
+	margin: 2rem 2 0;
+}
+
+.TodoApp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.4rem;
+}
+
+li {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+label {
+	margin-left: 0.5rem;
+}
+
+.Form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+input {
+	min-height: 4rem;
+	margin: 2rem 2 0;
+	padding-left: 2rem 2;
+	font-size: 2rem;
+	color: #263238;
+	border: 1px solid #cfd8dc;
+}
+
+.Btn {
+	height: 2rem 2;
+	padding: 1rem;
+	font-size: 1rem;
+	color: #eceff1;
+	background-color: #546e7a;
+	border: none;
+	cursor: pointer;
+	transition: #eceff1 0.2s;
+}
+.Btn:hover {
+	background-color: #90a4ae;
+}
+.link {
+	margin-right: 2rem 2;
+	color: #37474f;
+	background-color: white;
+}
+link:hover {
+	color: orange;
+	background-color: transparent;
+}
+
+.Alert {
+	margin: 2rem auto;
+}
+.js-alert {
+	color: red;
+}
+
+input[type="checkbox"]:checked + label {
+	color: green;
+	text-decoration: line-through;
+}
+
+.Filter {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}

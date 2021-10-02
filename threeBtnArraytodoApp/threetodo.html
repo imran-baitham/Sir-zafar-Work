@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- title -->
+	<title>Todo App</title>
+	<!-- style -->
+	<link rel="stylesheet" href="three.css" />
+</head>
+
+<body>
+	<div class="submit-form">
+		<div class="continer">
+			<form class="form">
+				<div class="Alert js-alert"></div>
+				<input type="text" class="js-form-input" id="inp" placeholder="e.g add task" />
+				<button class="js-btn-add" id="btn">Add Task</button>
+			</form>
+			<h5>Task List</h5>
+			<ul id="todolist" class="js-todos-list"></ul>
+			<div class="btn-three">
+				<button class="js-filter-btn" id="clear" data-filter="completed">
+					completed
+				</button>
+				<button class="js-filter-btn" id="active" data-filter="active">
+					Active
+				</button>
+				<button class="js-filter-btn" id="all-btn" data-filter="all">
+					All
+				</button>
+				
+			</div>
+		</div>
+	</div>
+	<!-- javascript -->
+	<script src="todobtn.js"></script>
+</body>
+
+</html>
